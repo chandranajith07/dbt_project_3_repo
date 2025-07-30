@@ -1,0 +1,13 @@
+dbt_project_3:
+  outputs:
+    dev:
+      account: MIRADCH-OM04859
+      database: SALES_DB
+      password: Ajithchandran9907.
+      role: ACCOUNTADMIN
+      schema: RAW
+      threads: 1
+      type: snowflake
+      user: AJITH
+      warehouse: COMPUTE_WH
+  target: dev
